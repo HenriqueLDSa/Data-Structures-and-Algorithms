@@ -19,8 +19,6 @@ The repository is organized into several directories, each focusing on specific 
 - **Sorting-Algorithms:** Various sorting algorithms (e.g., Quick Sort, Merge Sort) implemented in C.
 - **Tries-Num-of-Occurances:** Implementation of tries to count the number of occurrences of words in C.
 
-Each directory contains a `README.md` file with specific instructions and explanations related to the concepts and code.
-
 ## Getting Started
 
 To explore and run the programs:

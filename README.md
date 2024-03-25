@@ -27,12 +27,46 @@ To explore and run the programs:
 
 1. Clone the repository to your local machine.
 2. Navigate to the directory of the topic you're interested in.
-3. Read the `README.md` in the directory for specific compilation and execution instructions.
+3. Compile and excecute the `main` file, according to each language.
 
-## Contributing
+### Compiling C Programs
 
-Contributions are welcome! If you'd like to improve existing examples or add new ones, please feel free to fork the repository, make your changes, and submit a pull request.
+To compile a C program, use the GCC compiler with the following command:
 
-## License
+```
+gcc program_name.c -o program_output_name
+```
 
-This project is open source and available under the MIT License.
+For example, if you have a file named `main.c`, you can compile it to an executable named `main` like this:
+
+```
+gcc main.c -o main
+```
+
+Then, run the program with:
+
+```
+./main
+```
+
+### Compiling Java Programs
+
+To compile a Java program, use the `javac` compiler:
+
+```
+javac ClassName.java
+```
+
+For example, if your Java class is in a file named `Main.java`, you would compile it like this:
+
+```
+javac Main.java
+```
+
+This generates a `Main.class` file that you can run with the `java` command:
+
+```
+java Main
+```
+
+Make sure your `java` command is run from the same directory where your `.class` file is located, or specify the classpath to where the file resides.
